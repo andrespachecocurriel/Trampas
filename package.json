@@ -1,0 +1,30 @@
+{
+  "name": "trampas-encuesta",
+  "version": "1.0.0",
+  "description": "Sistema de encuesta online con geolocalización y conversión UTM",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "encuesta",
+    "geolocation",
+    "utm",
+    "mapa"
+  ],
+  "author": "Andres Pacheco",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "utm": "^0.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
